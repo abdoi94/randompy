@@ -1,4 +1,4 @@
 greet = 'Hello Bob'
-nnn = greet.upper()
-lll = greet.lower()
-print('Upper Case is ' + nnn + ' '+'\nlower case is ' + lll)
+nstr = greet.replace('Bob','Jane')
+mstr = greet.replace('o','x')
+print(nstr + '\n' + mstr)
