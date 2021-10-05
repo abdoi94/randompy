@@ -1,5 +1,4 @@
-a = 'Hello'
-b = a + 'There'
-print(b)
-c = a + ' ' + 'There'
-print(c)
+greet = 'Hello Bob'
+nnn = greet.upper()
+lll = greet.lower()
+print('Upper Case is ' + nnn + ' '+'\nlower case is ' + lll)
