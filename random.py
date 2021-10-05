@@ -1,7 +1,9 @@
-smallest = -1
-print('Before', smallest)
+smallest = None
+print('Before')
 for num in [9, 41, 12, 3, 74, 15]:
-    if num < smallest:
+    if smallest is None :
+        smallest = num
+    elif num < smallest :
         smallest = num
         print(smallest, num) 
 print('After', smallest)
