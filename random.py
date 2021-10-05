@@ -1,2 +1,3 @@
-for n in "banana":
-    print(n)
+fruit = 'banana'
+x = len(fruit) 
+print(x)
