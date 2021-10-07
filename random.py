@@ -1,3 +1,5 @@
 fhand = open('mbot.txt')
-for chesse in fhand:
-    print(chesse)
+count = 0
+for line in fhand:
+    count = count + 1
+print('Line Count:', count)
