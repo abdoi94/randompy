@@ -1,2 +1,3 @@
 fhand = open('mbot.txt')
-print(fhand)
+for chesse in fhand:
+    print(chesse)
