@@ -1,11 +1,13 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-########            #######
-## Print out List length ##
-########            #######
+########        #######
+## Concatenate lists ##
+########        #######
 
-friends = ['Ali', 'Saif', 'Ahmed']
-print(len(friends))
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(c)
 
 sys.stdout.close()
