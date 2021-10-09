@@ -1,25 +1,15 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-#####         #####
-## build a list  ##
-#####         #####
+#####                   #####
+## builtin list functions  ##
+#####                   #####
 
-stuff = list()
-stuff.append('book')
-stuff.append('99')
-stuff.append('cookie')
-print(stuff)
-
-
-#####        #####
-## Sort a list  ##
-#####        #####
-
-sorted = stuff
-sorted.sort()
-print(sorted)
-print(sorted[1])
-
+nums = [3, 41, 12, 9, 74, 15]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+print(sum(nums)/len(nums))
 
 sys.stdout.close()
