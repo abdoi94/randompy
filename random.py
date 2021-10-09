@@ -1,15 +1,11 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-########                      ########
-## Print out certain Item in a list##
-########                      ########
+########            #######
+## Print out List length ##
+########            #######
+
 friends = ['Ali', 'Saif', 'Ahmed']
-print(friends[2])
-
-########                             ########
-## Print out a text with Items from a list ##
-########                             ########
-
+print(len(friends))
 
 sys.stdout.close()
