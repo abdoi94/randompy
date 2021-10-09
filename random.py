@@ -1,14 +1,25 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-#####           #####
-## slicing a list  ##
-#####           #####
+#####         #####
+## build a list  ##
+#####         #####
 
-a = [18, 24, 46, 10, 15, 20, 40]
-print(a[:2])                        ## Print out 0 to 2 ##
-print(a[2:5])                       ## Print out 2 to 5 ##
-print(a[0:4])                       ## Print out 0 to 4 ##
-print(a[:])                         ## Print out the whole list ##
+stuff = list()
+stuff.append('book')
+stuff.append('99')
+stuff.append('cookie')
+print(stuff)
+
+
+#####        #####
+## Sort a list  ##
+#####        #####
+
+sorted = stuff
+sorted.sort()
+print(sorted)
+print(sorted[1])
+
 
 sys.stdout.close()
