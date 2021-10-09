@@ -1,7 +1,22 @@
-fname = input('Enter the file name: ')
-fhand = open(fname)                                              #Open txt file
-count = 0                                                             #Define count to use later
-for line in fhand:
-     if line.startswith('Hello') :                                    #Find line starting with hello
-          count = count + 1                                           #Count those lines
-print('There was', count, 'subject lines in:\n', fname)               #Print subjects count
+import sys
+sys.stdout = open("log.txt", "w")
+
+########                  ########
+## Print out all Items in a list##
+########                  ########
+list = [5, 4, 3, 2, 1]
+for i in list:
+     print(i)
+print('Lets go! \n')
+
+
+########                             ########
+## Print out a text with Items from a list ##
+########                             ########
+
+z = ['Ali', 'Saif', 'Ahmed']
+for x in z:
+     print('Happy Eid:', x)
+print('Done! \n')
+
+sys.stdout.close()
