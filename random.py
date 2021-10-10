@@ -1,14 +1,10 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-numlist = list()
-while True :
-     inp = input('Please Enter a number: \n')
-     if inp == 'done' : break
-     value = float(inp)
-     numlist.append(value)
-
-average = sum(numlist) / len(numlist)
-print('\nAverage:', average)
+abc = 'With three words'
+stuff = abc.split()
+print(stuff)
+print(len(stuff))
+print(stuff[0])
 
 sys.stdout.close()

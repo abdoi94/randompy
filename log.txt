@@ -1,7 +1,3 @@
-Please Enter a number: 
-Please Enter a number: 
-Please Enter a number: 
-Please Enter a number: 
-Please Enter a number: 
-
-Average: 26.0
+['With', 'three', 'words']
+3
+With
