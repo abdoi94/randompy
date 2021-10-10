@@ -1,5 +1,7 @@
-6
-74
-3
-154
-25.666666666666668
+Please Enter a number: 
+Please Enter a number: 
+Please Enter a number: 
+Please Enter a number: 
+Please Enter a number: 
+
+Average: 26.0
