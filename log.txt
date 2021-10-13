@@ -1,6 +1,1 @@
-Original: {'money': 12, 'candy': 3, 'tissues': 75} 
-
-there is 3 Candies in the purse 
-
-Edited Dict: {'money': 12, 'candy': 5, 'tissues': 75} 
-
+{'csev': 2, 'cwen': 2, 'gwem': 1}
