@@ -1,5 +1,7 @@
-Enter a line of text:Words: ['the', 'clown', 'ran', 'after', 'the', 'car', 'and', 'the', 'car', 'ran', 'into', 'the', 'tent', 'and', 'the', 'tent', 'fell', 'down', 'on', 'the', 'clown', 'and', 'the', 'car', 'the', 'clown', 'ran', 'after', 'the', 'car', 'and', 'the', 'car', 'ran', 'into', 'the', 'tent', 'and', 'the', 'tent', 'fell', 'down', 'on', 'the', 'clown', 'and', 'the', 'car']
-
-Counting...
-
-Counts {'the': 14, 'clown': 4, 'ran': 4, 'after': 2, 'car': 6, 'and': 6, 'into': 2, 'tent': 4, 'fell': 2, 'down': 2, 'on': 2}
+chuck 1
+fred 42
+jan 100
+['chuck', 'fred', 'jan']
+dict_keys(['chuck', 'fred', 'jan'])
+dict_values([1, 42, 100])
+dict_items([('chuck', 1), ('fred', 42), ('jan', 100)])

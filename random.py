@@ -1,13 +1,14 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-counts = dict()
-line = input('Enter a line of text:')
-words = line.split()
-print('Words:', words)
-print('\nCounting...\n')
-for word in words:
-    counts[word] = counts.get(word,0) + 1
-print('Counts', counts)
+counts = { 'chuck' : 1 , 'fred' : 42 , 'jan' : 100 }
+
+for key in counts:            ## print keys with their values
+    print(key, counts[key])
+
+print(list(counts))
+print(counts.keys())
+print(counts.values())
+print(counts.items())
 
 sys.stdout.close()
