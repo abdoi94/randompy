@@ -1,10 +1,10 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-abc = 'With three words'
-stuff = abc.split()
-print(stuff)
-print(len(stuff))
-print(stuff[0])
+purse = dict()
+purse['money'] = 12
+purse['candy'] = 3
+purse['tissues'] = 75
+print(purse)
 
 sys.stdout.close()

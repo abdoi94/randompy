@@ -1,3 +1,1 @@
-['With', 'three', 'words']
-3
-With
+{'money': 12, 'candy': 3, 'tissues': 75}
