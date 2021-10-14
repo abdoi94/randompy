@@ -1,2 +1,5 @@
-Enter file name:
- to 16
+James
+('Glenn', 'Sally', 'James')
+Glenn
+Sally
+James

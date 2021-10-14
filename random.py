@@ -1,21 +1,11 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-name = input('Enter file name:')
-handle = open(name)
-counts = dict()
-for line in handle:
-    words = line.split()
-    for word in words:
-        counts[word] = counts.get(word,0) + 1
+x = ('Glenn', 'Sally', 'James')
+print(x[2])
+print(x)
 
-bigcount = None
-bigword = None
-for word,count in counts.items():
-    if bigcount is None or count > bigcount:
-        bigword = word
-        bigcount = count
-
-print('\n', bigword, bigcount)
+for aaa in x:
+    print(aaa)
 
 sys.stdout.close()
