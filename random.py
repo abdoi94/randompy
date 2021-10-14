@@ -1,13 +1,9 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-d = dict()
-d['csev'] = 4
-d['cwen'] = 8
-for (k, v) in d.items():
+b = {'a':10, 'b':1, 'c':22}
+t = sorted(b.items())
+for k, v in t:
     print(k, v)
-
-tups = d.items()
-print(tups)
 
 sys.stdout.close()
