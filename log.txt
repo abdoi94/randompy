@@ -1,3 +1,10 @@
-a 10
-b 1
-c 22
+I 60
+to 31
+the 30
+thou 29
+JULIET 28
+ROMEO 27
+that 23
+my 22
+and 22
+a 22
