@@ -1,2 +1,3 @@
-4
-Madison
+csev 4
+cwen 8
+dict_items([('csev', 4), ('cwen', 8)])

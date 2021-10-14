@@ -1,10 +1,13 @@
 import sys
 sys.stdout = open("log.txt", "w")
 
-(x, y) = ('4', 'James')
-print(x)
+d = dict()
+d['csev'] = 4
+d['cwen'] = 8
+for (k, v) in d.items():
+    print(k, v)
 
-(a, b) = ('21', 'Madison')
-print(b)
+tups = d.items()
+print(tups)
 
 sys.stdout.close()
