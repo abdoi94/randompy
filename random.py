@@ -2,10 +2,8 @@ import sys
 import re
 sys.stdout = open("log.txt", "w")
 
-hand = open('words.txt')
-for line in hand:
-    line = line.rstrip()
-    if re.search('^From:', line):
-        print(line)
+s = 'A message from csev@umich.edu to cwen@iupui.edu about meeting @2PM'
+lst = re.findall('\S+@\S+', s)
+print(lst)
 
 sys.stdout.close()
