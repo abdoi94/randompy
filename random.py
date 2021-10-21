@@ -1,9 +1,8 @@
+import socket
 import sys
-import re
 sys.stdout = open("log.txt", "w")
 
-x = 'My 2 favorite numbers are 420 and 69'
-y = re.findall('[0-9]+' ,x)
-print(y)
-
+mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+mysock.connect(('data.py4e.com', 80))
+print(mysock)
 sys.stdout.close()
