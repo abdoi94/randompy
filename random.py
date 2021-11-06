@@ -1,25 +1,15 @@
 import sys
+sys.stdout = open("log.txt", "w")
 
-import json
+class PartyAnimal:
+    x = 0
+    def party(self):
+        self.x = self.x + 2
+        print(self.x)
 
-data = '''
-[
-  { "id" : "001",
-    "x" : "2",
-    "name" : "Chuck"
-  } ,
-  { "id" : "009",
-    "x" : "7",
-    "name" : "Chuck"
-  }
-]'''
+an = PartyAnimal()
+an.party()
+an.party()
 
-info = json.loads(data)
-print('User count:', len(info))
-
-for item in info:
-    print('Name', item['name'])
-    print('Id', item['id'])
-    print('Attribute', item['x'])
 
 sys.stdout.close()
